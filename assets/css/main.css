@@ -201,7 +201,7 @@ h1 > a:hover > .dot-head {
 }
 
 .gravatar {
-    background: url("http://www.gravatar.com/avatar/08557ea48b0f92938bb0c01356ad606e?s=200") no-repeat;
+    background: url("http://pursuingthetech.com/wp-content/uploads/2017/01/profile-photo.jpeg") no-repeat;
     background-size: 200px 200px;
     border: 1px solid #ccc;
     border-radius: 100%;
@@ -336,7 +336,7 @@ a.creative-commons:hover {
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (min-resolution: '144dpi') {
     .gravatar {
-        background-image: url("http://www.gravatar.com/avatar/08557ea48b0f92938bb0c01356ad606e?s=400");
+        background-image: url("http://pursuingthetech.com/wp-content/uploads/2017/01/travis-photo.jpeg");
     }
 }
 
