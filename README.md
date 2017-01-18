@@ -1,4 +1,4 @@
-http://rodgtr1.github.io
+rodgtr1.github.io
 ==========
 
-This is the source code for (http://rodgtr1.github.io), my personal website.
+This is the source code for http://rodgtr1.github.io.
