@@ -2,7 +2,7 @@ $(function () {
 
     $.ajaxSetup({cache: true});
 
-    // Get repositories from the GitHub API.
+    /*// Get repositories from the GitHub API.
     if ($('#projects').length) {
         $.getJSON('https://api.github.com/users/jnrbsn/repos?callback=?', function (repos) {
             var i, repoCount = repos.data.length, now = Date.now(),
@@ -73,7 +73,7 @@ $(function () {
             $projects.fadeTo(200, 1);
         });
     }
-
+*/
     // Fix scrolling issue on Mobile Safari.
     if ($(window).width() < 768) {
         $(window).scrollTop(0);

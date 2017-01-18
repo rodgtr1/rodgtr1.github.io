@@ -3,6 +3,12 @@
  * ==================================================
  */
 
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
     font-size: 100%;
     overflow-y: scroll;
@@ -92,7 +98,7 @@ header {
     background-color: #fff;
     border: 1px solid #ccc;
     border-top-width: 0;
-    min-height: 250px;
+    min-height: 700px;
     padding: 50px;
 }
 
@@ -103,6 +109,7 @@ footer {
     border-top-width: 0;
     padding: 25px;
     text-align: center;
+    clear:both;
 }
 
 /**
@@ -201,7 +208,7 @@ h1 > a:hover > .dot-head {
 }
 
 .gravatar {
-    background: url("http://pursuingthetech.com/wp-content/uploads/2017/01/profile-photo.jpeg") no-repeat;
+  background: url("http://0.gravatar.com/userimage/61943754/884fa56fdd25e71ac4c210249df8627d?size=400") no-repeat;
     background-size: 200px 200px;
     border: 1px solid #ccc;
     border-radius: 100%;
@@ -302,6 +309,75 @@ h1 > a:hover > .dot-head {
     width: 100%;
 }
 
+.projects-title {
+  text-align: center;
+}
+
+.work {
+  background-size: cover;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%
+}
+
+.work .project {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 2em auto
+}
+
+.work .project .project-thumb {
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+  display: inline-block
+}
+
+@media (max-width: 768px) {
+  .work .project .project-thumb {
+    width: 99%
+  }
+}
+
+.work .project .project-thumb img {
+  display: block;
+  text-align: center;
+  margin: 0 auto 3%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.work .project .project-description {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 0;
+  display: inline-block
+}
+
+@media (max-width: 768px) {
+  .work .project .project-description {
+    width: 99%
+  }
+}
+
+.work .project .project-description a strong {
+  font-size: 1.4em;
+  margin-bottom: 1.0em;
+  font-weight: 600
+}
+
+.work .project .project-description-long {
+  margin-top: 11px;
+}
+
+.work .project .excerpt {
+  margin-top: 1em
+
+
 /**
  * Footer
  * ==================================================
@@ -336,7 +412,7 @@ a.creative-commons:hover {
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (min-resolution: '144dpi') {
     .gravatar {
-        background-image: url("http://pursuingthetech.com/wp-content/uploads/2017/01/travis-photo.jpeg");
+      background-image: url("http://0.gravatar.com/userimage/61943754/884fa56fdd25e71ac4c210249df8627d?size=400");
     }
 }
 
