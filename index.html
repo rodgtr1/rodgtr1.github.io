@@ -20,8 +20,29 @@ title: index
     <a href="https://twitter.com/pursuingthetech" title="Follow me on Twitter"><i class="icon-twitter"></i></a>
     <a href="https://www.linkedin.com/in/rodgtr1" title="Connect with me on LinkedIn"><i class="icon-linkedin-squared"></i></a>
     <a href="http://stackoverflow.com/users/2732015/rodgtr1" title="Ask me stuff on Stack Overflow"><i class="icon-stackoverflow"></i></a>
-    <a href="mailto:rodgtr1@gmail.com" title="Email me"><i class="icon-gmail"></i></a>
+    <a href="mailto:pursuingthetech@gmail.com" title="Email me"><i class="icon-gmail"></i></a>
 </p>
+
+<p>...or you can <strong>contact</strong> me directly:</p>
+<form class="form" id="contactform" action="http://formspree.io/pursuingthetech@gmail.com" method="POST">
+  <fieldset class="field">
+    <input class="input" type="text" name="name" placeholder="Name" required>
+    <label class="label" for="name"><span class="label-content">Your name</span></label>
+  </fieldset>
+  <fieldset class="field">
+    <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required>
+    <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
+  </fieldset>
+  <fieldset class="field">
+    <textarea class="input" name="message" rows="1" placeholder="Message" required></textarea>
+    <label class="label" for="message"><span class="label-content">Your message</span></label>
+  </fieldset>
+  <input class="hidden" type="text" name="_gotcha" style="display:none">
+  <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+  <fieldset class="field">
+    <input class="button submit" type="submit" value="Send">
+  </fieldset>
+</form>
 
 <p>This site is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on
 <a href="https://pages.github.com/">GitHub Pages</a>. The source code for this site is publicly available
