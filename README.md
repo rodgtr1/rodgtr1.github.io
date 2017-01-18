@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 http://rodgtr1.github.io
+=======
+rodgtr1.github.io
+>>>>>>> d1c1af89c9ae44686cbc62496fc7055297e08c53
 ==========
 
 <<<<<<< HEAD
