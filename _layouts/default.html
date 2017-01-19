@@ -52,6 +52,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/vendor/autolinker/Autolinker.min.js?rev={{ site.github.build_revision }}"></script>
     <script src="/assets/js/main.js?rev={{ site.github.build_revision }}"></script>
-
-</body>
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  </body>
 </html>
