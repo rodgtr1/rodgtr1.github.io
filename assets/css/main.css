@@ -75,7 +75,6 @@ dd {
 #CONTACT PAGE
 ========================================================================== */
 /* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
-
 #contactform, .form {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -86,7 +85,6 @@ dd {
   z-index: 1;
   display: inline-block;
   margin: 0 1em 0 0;
-  /* this is almost a third, on my own site I use calc(33% - 0.66rem) for width */
   width: 30%;
   vertical-align: top;
   overflow: hidden;
@@ -101,7 +99,7 @@ dd {
   float: right;
   border: none;
   border-radius: 0;
-  -webkit-appearance: none; /* for box shadows to show on iOS */
+  -webkit-appearance: none; 
   width: 100%;
   background: transparent;
   padding: 0.5em;
@@ -123,7 +121,7 @@ textarea.input {
 .label {
   display: inline-block;
   float: right;
-  color: hsla(221,72%,55%,1);
+  color: #25a;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -206,7 +204,7 @@ textarea.input {
   border-radius: 0.25rem;
   padding: 0.5em;
   color: #fff;
-  background-color: hsla(221,72%,55%,1);
+  background-color: #25a;
   transition: all 0.3s ease-out;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
   -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
@@ -217,7 +215,6 @@ textarea.input {
   -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
 }
-
 
 /**
  * Layout
@@ -459,74 +456,6 @@ h1 > a:hover > .dot-head {
     width: 100%;
 }
 
-.projects-title {
-  text-align: center;
-}
-
-.work {
-  background-size: cover;
-  text-align: center;
-  display: block;
-  float: left;
-  width: 100%
-}
-
-.work .project {
-  display: block;
-  float: left;
-  clear: both;
-  width: 100%;
-  margin: 2em auto
-}
-
-.work .project .project-thumb {
-  width: 100%;
-  float: left;
-  margin-bottom: 0;
-  display: inline-block
-}
-
-@media (max-width: 768px) {
-  .work .project .project-thumb {
-    width: 99%
-  }
-}
-
-.work .project .project-thumb img {
-  display: block;
-  text-align: center;
-  margin: 0 auto 3%;
-  max-width: 500px;
-  max-height: 500px;
-}
-
-.work .project .project-description {
-  width: 100%;
-  float: left;
-  text-align: center;
-  margin-bottom: 0;
-  display: inline-block
-}
-
-@media (max-width: 768px) {
-  .work .project .project-description {
-    width: 99%
-  }
-}
-
-.work .project .project-description a strong {
-  font-size: 1.4em;
-  margin-bottom: 1.0em;
-  font-weight: 600
-}
-
-.work .project .project-description-long {
-  margin-top: 11px;
-}
-
-.work .project .excerpt {
-  margin-top: 1em
-    
 /**
  * Footer
  * ==================================================
@@ -663,3 +592,76 @@ a.creative-commons:hover {
         line-height: 50px;
     }
 }
+
+/**
+* Projects.html
+* ==================================================
+*/
+
+.projects-title {
+  text-align: center;
+}
+
+.work {
+  background-size: cover;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%
+}
+
+.work .project {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 2em auto
+}
+
+.work .project .project-thumb {
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+  display: inline-block
+}
+
+@media (max-width: 768px) {
+  .work .project .project-thumb {
+    width: 99%
+  }
+}
+
+.work .project .project-thumb img {
+  display: block;
+  text-align: center;
+  margin: 0 auto 3%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.work .project .project-description {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 0;
+  display: inline-block
+}
+
+@media (max-width: 768px) {
+  .work .project .project-description {
+    width: 99%
+  }
+}
+
+.work .project .project-description a strong {
+  font-size: 1.4em;
+  margin-bottom: 1.0em;
+  font-weight: 600
+}
+
+.work .project .project-description-long {
+  margin-top: 11px;
+}
+
+.work .project .excerpt {
+  margin-top: 1em
