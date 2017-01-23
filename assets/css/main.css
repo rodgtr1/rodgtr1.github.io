@@ -284,7 +284,7 @@ h1 > a:hover {
 }
 
 h1 > a > .dot-head {
-    background: url("/assets/img/head-logo.svg") no-repeat;
+    background: url("/assets/img/computer-icon.png") no-repeat;
     background-size: 32px 32px;
     display: inline-block;
     height: 32px;
