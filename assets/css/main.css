@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #cfd7c7;
+    background-color: #d5dfe5;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -217,7 +217,7 @@ textarea.input {
 
 .container {
     margin: 0 auto 50px;
-    width: 720px;
+    width: 80%;
 }
 
 header {
