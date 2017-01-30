@@ -591,8 +591,7 @@ a.creative-commons:hover {
 }
 
 .work .project .triple-button {
-  width: 100%;
-  float: left;
+  max-width: 100%;
   text-align: center;
   margin-bottom: 0;
   display: inline-block;
