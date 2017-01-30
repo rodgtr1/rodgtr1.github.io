@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #d5dfe5;
+    background-color: #A5978B;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -23,7 +23,7 @@ body {
 
 a,
 a:visited {
-    color: #25a;
+    color: #507DBC;
     font-weight: 600;
     text-decoration: none;
 }
@@ -45,12 +45,19 @@ h1 {
     padding: 0;
 }
 
-p,
 h2,
 h3 {
     line-height: 25px;
     margin: 0 0 25px;
     padding: 0;
+}
+
+p {
+  line-height: 27px;
+  margin: 0 0 25px;
+  padding: 0;
+  font-family: Georgia, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
 }
 
 h2 {
@@ -68,146 +75,71 @@ dd {
 /* ==========================================================================
 #CONTACT PAGE
 ========================================================================== */
-/* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
-#contactform, .form {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+
+form {
+  max-width: 450px;
+  margin: 0 auto 50px;
 }
-.field {
-  border: none;
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  margin: 0 1em 0 0;
-  width: 25%;
-  vertical-align: top;
-  overflow: hidden;
-  font-family: "adelle-sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-.field:nth-child(3) {
-  margin-right: 0;
-}
-.input {
-  position: relative;
-  display: block;
-  float: right;
-  border: none;
-  border-radius: 0;
-  -webkit-appearance: none; 
+
+input, textarea {
+  border: 2px solid #504746;
   width: 100%;
-  background: transparent;
-  padding: 0.5em;
-  margin-bottom: 2em;
-  z-index: 100;
-  opacity: 0;
-  height: 2rem;
+  box-sizing: border-box;
+  padding: 10px;
+  padding: 10px;
 }
 
-textarea.input {
-  resize: none;
-  padding-bottom: 0;
-}
-
-.input:focus {
+input:focus {
   outline: none;
+  border-color: #8e807e;
 }
 
-.label {
-  display: inline-block;
-  float: right;
-  color: #25a;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 100%;
-  position: absolute;
-  text-align: left;
-  padding: 0.5em 0;
-  pointer-events: none;
-  font-size: 1em;
-}
-.label::before,
-.label::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
-.label::before {
-  height: 100%;
-  background: #fff;
-  top: 0;
-  -webkit-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-}
-.label::after {
-  height: 2px;
-  background: hsla(221,72%,55%,1);
-  top: 100%;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+textarea:focus {
+  outline: none;
+  border-color: #8e807e;
 }
 
-.label-content {
-  position: relative;
+input[type="submit"]:hover {
+  background: #25a;
+}
+
+textarea {
+  height: 10em;
+}
+
+input[type="submit"] {
+  background: #504746;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+  color: white;
+}
+
+.submit-wrap {
+  text-align: right;
+}
+
+.contact-info-group label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.contact-info-group label:nth-child(1) {
+  padding-right: 10px;
+}
+
+.contact-info-group label:nth-child(2) {
+  padding-left: 10px;
+}
+
+label{
   display: block;
-  width: 100%;
-  padding: 0;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transition: -webkit-transform 0.3s, color 0.3s;
-  transition: transform 0.3s, color 0.3s;
+  margin-bottom: 20px;
 }
 
-.input:focus,
-.input--filled .input {
-  opacity: 1;
-  -webkit-transition: opacity 0s 0.3s;
-  transition: opacity 0s 0.3s;
-}
-
-.input:focus + .label::before,
-.input--filled .label::before {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.input:focus + .label::after,
-.input--filled .label::after {
-  opacity: 0;
-}
-
-.input:focus + .label .label-content,
-.input--filled .label .label-content {
-  color: #cbc4c6;
-  -webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
-  transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
-}
-
-.button, input[type=submit] {
-  -webkit-appearance: none;
-  border: none;
-  border-radius: 0.25rem;
-  padding: 0.5em;
-  color: #fff;
-  background-color: #25a;
-  transition: all 0.3s ease-out;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-}
-.button:hover, .button:focus, .button:active {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
-  -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
-  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
+span {
+  display: block;
 }
 
 /**
@@ -267,7 +199,7 @@ h1 > a:visited {
 }
 
 h1 > a:hover {
-    color: #999;
+    color: #666;
     text-decoration: none;
 }
 
@@ -325,13 +257,13 @@ h1 > a:hover > .dot-head {
 }
 
 .navigation > ul > li > a {
-    color: #999;
+    color: #333;
     font-weight: 700;
     transition: color .1s ease-in-out;
 }
 
 .navigation > ul > li > a:hover {
-    color: #25a;
+    color: #507DBC;
     text-decoration: none;
 }
 
