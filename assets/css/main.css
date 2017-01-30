@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #A5978B;
+    background-color: #5D737E;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -23,7 +23,7 @@ body {
 
 a,
 a:visited {
-    color: #507DBC;
+    color: #275DAD;
     font-weight: 600;
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ textarea:focus {
 }
 
 input[type="submit"]:hover {
-  background: #25a;
+  background: #5D737E;
 }
 
 textarea {
@@ -108,7 +108,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #504746;
+  background: #000000;
   font-size: 18px;
   text-transform: uppercase;
   width: 33%;
@@ -195,11 +195,11 @@ h1 > a:visited {
     font-weight: 700;
     line-height: 50px;
     padding: 25px 15px;
-    transition: color .5s ease-in-out;
+    transition: color .7s ease-in-out;
 }
 
 h1 > a:hover {
-    color: #666;
+    color: #FFF;
     text-decoration: none;
 }
 
