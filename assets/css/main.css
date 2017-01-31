@@ -562,8 +562,8 @@ a.creative-commons:hover {
   display: block;
   text-align: center;
   margin: 0 auto 3%;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 83%;
+  max-height: 83%;
 }
 
 .work .project .project-description {
@@ -592,20 +592,21 @@ a.creative-commons:hover {
 
 .work .project .triple-button {
   display: inline-block;
+  margin-top: 10px;
 }
 
 input[type=button] {
-  width: 112px;
+  width: 57%;
   cursor: pointer;
   background: #275dad;
   color: #fff;
   border: 1px solid #275dad;
-  border-radius: 6px;
-  padding: 6px;
+  border-radius: 4px;
+  padding: 8px;
   text-align: center;
   line-height: 8px;
   font-weight: 100;
-  margin-top: 11px;
+  margin-top: 6px;
   font-size: 73%;
   -webkit-appearance: none;
 }
