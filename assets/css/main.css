@@ -605,6 +605,7 @@ input[type=button] {
   text-align: center;
   line-height: 8px;
   font-weight: 100;
+  -webkit-appearance: none;
 }
 
 input.btn:hover {
