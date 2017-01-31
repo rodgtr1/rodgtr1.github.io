@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #5D737E;
+    background-color: #C0C5C1;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -109,11 +109,18 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #172a3a;
-  font-size: 18px;
-  text-transform: uppercase;
   width: 28%;
-  color: white;
+  cursor: pointer;
+  background: #275dad;
+  color: #fff;
+  border: 1px solid #275dad;
+  border-radius: 4px;
+  padding: 8px;
+  text-align: center;
+  line-height: 8px;
+  font-weight: 100;
+  margin-top: 6px;
+  font-size: 73%;
   -webkit-appearance: none;
 }
 
@@ -614,10 +621,7 @@ input[type=button] {
 }
 
 input.btn:hover {
-  color: #FFF;
-  background: #648bc5;
-  border: 1px solid #fff;
-  box-shadow:: 5px 5px 4px #adadad;
+  background: #5D737E;
   -webkit-appearance: none;
 }
 
