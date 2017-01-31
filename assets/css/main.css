@@ -605,12 +605,14 @@ input.btn {
   text-align: center;
   line-height: 8px;
   font-weight: 100;
+  -webkit-appearance: none;
 }
 input.btn:hover {
   color: #FFF;
   background: #648bc5;
   border: 1px solid #fff;
   box-shadow:: 5px 5px 4px #adadad;
+  -webkit-appearance: none;
 }
 
 .work .project .excerpt {
