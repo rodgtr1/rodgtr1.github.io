@@ -591,25 +591,26 @@ a.creative-commons:hover {
 }
 
 .work .project .triple-button {
-  max-width: 100%;
-  text-align: center;
-  margin-bottom: 0;
+  display: inline-block;
 }
 
-button {
-  margin: 4px;
-  margin-top: 9px;
-  border-radius: 3px;
-  width: 22%;
-  height: 44px;
-  font-size: 12px;
-  vertical-align: top;
+input.btn {
+  width: 99px;
+  cursor: pointer;
+  background: #275dad;
+  color: #fff;
+  border: 1px solid #275dad;
+  border-radius: 6px;
+  padding: 6px;
   text-align: center;
+  line-height: 8px;
+  font-weight: 100;
 }
-
-button a:hover{
-  color: #3888ff;
-  text-decoration: none;
+input.btn:hover {
+  color: #FFF;
+  background: #648bc5;
+  border: 1px solid #fff;
+  box-shadow:: 5px 5px 4px #adadad;
 }
 
 .work .project .excerpt {
