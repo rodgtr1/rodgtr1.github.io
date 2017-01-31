@@ -101,6 +101,7 @@ textarea:focus {
 
 input[type="submit"]:hover {
   background: #5D737E;
+  -webkit-appearance: none;
 }
 
 textarea {
@@ -108,11 +109,12 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #504746;
+  background: #172a3a;
   font-size: 18px;
   text-transform: uppercase;
-  width: 33%;
+  width: 28%;
   color: white;
+  -webkit-appearance: none;
 }
 
 .submit-wrap {
