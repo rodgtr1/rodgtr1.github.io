@@ -595,7 +595,7 @@ a.creative-commons:hover {
 }
 
 input[type=button] {
-  width: 94px;
+  width: 112px;
   cursor: pointer;
   background: #275dad;
   color: #fff;
@@ -605,6 +605,8 @@ input[type=button] {
   text-align: center;
   line-height: 8px;
   font-weight: 100;
+  margin-top: 11px;
+  font-size: 73%;
   -webkit-appearance: none;
 }
 
