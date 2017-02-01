@@ -9,7 +9,7 @@ permalink: /aspiring-web-developer-using-wordpress/
 dsq_thread_id:
   - "5473054922"
 image: /wp-content/uploads/2017/01/wordpress.jpg
-categories: tech
+categories: Tech
 tags:
   - web development
   - wordpress

@@ -4,3 +4,5 @@ url: http://travis.media
 highlighter: pygments
 
 markdown: kramdown
+
+permalink: /:title/

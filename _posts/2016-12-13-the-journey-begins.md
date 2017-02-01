@@ -5,18 +5,8 @@ date: 2016-12-13T15:03:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-journey-begins/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/the-journey-begins.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/285032765961973398
-dsq_thread_id:
-  - "5448243673"
 image: /wp-content/uploads/2016/12/the-journey-begins-298x248.jpg
-categories: tech
+categories: Tech
 tags: 
   - bloc
   - bootcamps

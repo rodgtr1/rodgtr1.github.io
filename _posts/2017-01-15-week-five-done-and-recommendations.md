@@ -9,7 +9,7 @@ permalink: /week-five-done-and-recommendations/
 dsq_thread_id:
   - "5463663571"
 image: /wp-content/uploads/2017/01/week-five-done-1.jpg
-categories: tech
+categories: Tech
 tags:
   - bloc
   - bootcamps

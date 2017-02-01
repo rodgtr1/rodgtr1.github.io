@@ -9,7 +9,7 @@ permalink: /spark-child-interest-in-coding-with-silly-program/
 dsq_thread_id:
   - "5477548076"
 image: /wp-content/uploads/2017/01/kids-coding.jpg
-categories: tech
+categories: Tech
 tags:
   - children
 ---
