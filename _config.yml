@@ -4,6 +4,3 @@ url: http://travis.media
 highlighter: pygments
 
 markdown: kramdown
-
-disqus: 
-  shortname: travismedia
