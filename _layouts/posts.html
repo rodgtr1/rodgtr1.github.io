@@ -2,30 +2,26 @@
 layout: default
 ---
 
-<h2 class="spacing">{{ page.title }}</h2>
-<p>{{ page.date | date: '%B %d, %Y' }}</p>
+ <header class="page-header">
+          <h3 class="page-title"><a href="{{page.url|prepend: site.baseurl}}">{{ page.title }}</a></h3>
+          <div class="post-metadata">
+            <div> <i class="fa fa-calendar"></i>
+              <time>
+                {{ page.date | date:'%A, %B %d, %Y'}}
+              </time>
+            </div>
+            <div> <i class="fa fa-tag"></i>
+                {% for tag in page.tags %}
+                  <span class="label label-tag">{{tag}}</span>
+                {% endfor %}
+            </div>
+          </div>
 
-<div class="post-categories">
-  {% if post %}
-  {% assign categories = post.categories %}
-  {% else %}
-  {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
+        </header>
 
-{{ content }}
-
-<!--
-<ul class="tags">
-  {% for tag in page.tags %}
-  <li><a href="{{site.baseurl}}tags#{{tag}}" class="tag">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
--->
+        <article class="page-content">
+          {{ content }}
+        </article>
 
 {% include twitter_plug.html %}
 
