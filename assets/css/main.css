@@ -669,3 +669,22 @@ input.btn:hover {
     vertical-align: baseline;
     border-radius: .25em;
 }
+
+
+
+
+
+
+
+
+
+.page-header{
+  margin: 10px 0;
+  text-align:center;
+  padding-bottom:25px;
+}
+.page-header h1{
+  margin: 0;
+}
+
+
