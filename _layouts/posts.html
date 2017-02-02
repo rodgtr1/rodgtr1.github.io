@@ -19,10 +19,14 @@ layout: default
 
 {{ content }}
 
+<!--
 <ul class="tags">
   {% for tag in page.tags %}
   <li><a href="{{site.baseurl}}tags#{{tag}}" class="tag">{{ tag }}</a></li>
   {% endfor %}
 </ul>
+-->
+
+{% include twitter_plug.html %}
 
 {% include disqus_comments.html %}
