@@ -651,6 +651,10 @@ input.btn:hover {
 /* front page stuff */
 .imgcontainer img{
   width: 100%;
+  width: 178px;
+  height: 148px;
+  max-width: 100%;
+  padding-right: 13px;
 }
 
 .label-tag{
@@ -669,14 +673,6 @@ input.btn:hover {
     vertical-align: baseline;
     border-radius: .25em;
 }
-
-
-
-
-
-
-
-
 
 .page-header{
   margin: 10px 0;
