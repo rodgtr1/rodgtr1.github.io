@@ -5,17 +5,7 @@ date: 2016-12-26T19:57:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /so-i-failed-my-first-bloc-assessment/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/so-i-failed-my-first-bloc-assessment.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/779567873370277118
-dsq_thread_id:
-  - "5472759889"
-image: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
+thumbnail: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
 categories: tech
 tags:
   - assessment
