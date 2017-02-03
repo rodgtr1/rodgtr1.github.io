@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #C0C5C1;
+    background-color: #303036;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -23,7 +23,7 @@ body {
 
 a,
 a:visited {
-    color: #275DAD;
+    color: #ba3f1d;
     font-weight: 600;
     text-decoration: none;
 }
@@ -100,7 +100,7 @@ textarea:focus {
 }
 
 input[type="submit"]:hover {
-  background: #5D737E;
+  background: #303036;
   -webkit-appearance: none;
 }
 
@@ -111,9 +111,9 @@ textarea {
 input[type="submit"] {
   width: 28%;
   cursor: pointer;
-  background: #275dad;
+  background: #4f7cac;
   color: #fff;
-  border: 1px solid #275dad;
+  border: 1px solid #4f7cac;
   border-radius: 4px;
   padding: 8px;
   text-align: center;
@@ -200,7 +200,7 @@ footer {
 
 h1 > a,
 h1 > a:visited {
-    color: #333;
+    color: #bcab79;
     display: inline-block;
     font-weight: 700;
     line-height: 50px;
@@ -607,9 +607,9 @@ a.creative-commons:hover {
 input[type=button] {
   width: 57%;
   cursor: pointer;
-  background: #275dad;
+  background: #4f7cac;
   color: #fff;
-  border: 1px solid #275dad;
+  border: 1px solid #4f7cac;
   border-radius: 4px;
   padding: 8px;
   text-align: center;
@@ -621,7 +621,7 @@ input[type=button] {
 }
 
 input.btn:hover {
-  background: #5D737E;
+  background: #303036;
   -webkit-appearance: none;
 }
 
@@ -639,12 +639,19 @@ input.btn:hover {
 .blog-short{
   border-bottom:1px solid #ddd;
   padding-bottom:30px;
+  padding-top: 17px;
   display: table;
-
 }
+
+a, a:visited, .blog-title {
+  font-weight: 700;
+}
+
 .blog-short .excerpt{
   min-height:100px;
 }
+
+
 .margin10{margin-bottom:10px; margin-right:10px;}
 
 
@@ -657,7 +664,7 @@ input.btn:hover {
 }
 
 .label-tag{
-  background-color: #002e62;
+  background-color: #4f7cac;
 }
 
 .label {

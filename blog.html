@@ -6,7 +6,7 @@ permalink: /blog
 
 {% for post in site.posts %}
         <div class="blog-short">
-          <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+          <h3 class="blog-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
   		<div>
   		  <small>
   			<i class="fa fa-calendar"></i>
