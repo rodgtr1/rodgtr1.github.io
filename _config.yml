@@ -1,8 +1,7 @@
 title: travis.media
 url: http://travis.media
 
-highlighter: rogue
-
 markdown: kramdown
+highlighter: rouge
 
 permalink: /:title/
