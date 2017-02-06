@@ -6,14 +6,12 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=108
 permalink: /a-simple-and-practical-explanation-of-firstchild-childnodes-nodevalue/
-dsq_thread_id:
-  - "5451322761"
-image: /wp-content/uploads/2017/01/html-node-copy.jpg
+thumbnail: /wp-content/uploads/2017/01/html-node-copy.jpg
 categories: tech
 tags:
   - nodes
 ---
-<span class="wpsdc-drop-cap">I</span> recently had an exercise where I was asked to manipulate nodes using firstChild, childNodes, and nodeValue. In my search to better understand these I found many sites explaining the technical jargon behind them and also providing somewhat complex examples of their uses.
+I recently had an exercise where I was asked to manipulate nodes using firstChild, childNodes, and nodeValue. In my search to better understand these I found many sites explaining the technical jargon behind them and also providing somewhat complex examples of their uses.
 
 However. I was not able to find a simple, practical, &#8220;newbie&#8221; example in order to better understand the root concept itself.
 

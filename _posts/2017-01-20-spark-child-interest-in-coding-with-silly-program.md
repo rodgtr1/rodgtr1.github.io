@@ -6,14 +6,12 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=215
 permalink: /spark-child-interest-in-coding-with-silly-program/
-dsq_thread_id:
-  - "5477548076"
-image: /wp-content/uploads/2017/01/kids-coding.jpg
+thumbnail: /wp-content/uploads/2017/01/kids-coding.jpg
 categories: Tech
 tags:
   - children
 ---
-<span class="wpsdc-drop-cap">I</span> keep hearing stories about kids learning to code and it really puzzles me. Maybe because I could not see myself doing it as a pre-teen/teenager (which of course is NOT a good way to gauge things). Perhaps it was because I did not know anyone who coded nor did anyone introduce me to it. Perhaps it was because computers were not as normative as they are now, I mean, it wasn&#8217;t until high school that I even used the internet (i&#8217;m 35)?
+I keep hearing stories about kids learning to code and it really puzzles me. Maybe because I could not see myself doing it as a pre-teen/teenager (which of course is NOT a good way to gauge things). Perhaps it was because I did not know anyone who coded nor did anyone introduce me to it. Perhaps it was because computers were not as normative as they are now, I mean, it wasn&#8217;t until high school that I even used the internet (i&#8217;m 35)?
 
 Whatever the case, I seem to have a hard time imagining my 8-year-old daughter getting into strings or functions or arrays, etc.,
 

@@ -200,7 +200,7 @@ footer {
 
 h1 > a,
 h1 > a:visited {
-    color: #bcab79;
+    color: #f3c969;
     display: inline-block;
     font-weight: 700;
     line-height: 50px;
@@ -637,7 +637,7 @@ input.btn:hover {
 
 /*blog stuff */
 .blog-short{
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid #303036;
   padding-bottom:30px;
   padding-top: 17px;
   display: table;
@@ -687,6 +687,14 @@ a, a:visited, .blog-title {
 }
 .page-header h1{
   margin: 0;
+}
+
+.post-metadata {
+  text-align: left;
+}
+
+h3.page-title {
+  text-align: left;
 }
 
 

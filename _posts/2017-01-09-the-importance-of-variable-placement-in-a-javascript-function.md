@@ -6,9 +6,7 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=111
 permalink: /the-importance-of-variable-placement-in-a-javascript-function/
-dsq_thread_id:
-  - "5448524917"
-image: /wp-content/uploads/2017/01/variable.jpg
+thumbnail: /wp-content/uploads/2017/01/variable.jpg
 categories: tech
 tags:
   - functions

@@ -5,17 +5,7 @@ date: 2017-01-03T12:26:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /two-important-javascript-loops-and-a-book-recommendation/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2017/01/two-important-javascript-loops-and-book-recommendation.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/5606879277642623375
-dsq_thread_id:
-  - "5442329969"
-image: /wp-content/uploads/2016/12/you-dont-know-js.jpg
+thumbnail: /wp-content/uploads/2016/12/you-dont-know-js.jpg
 categories: tech
 tags:
   - books

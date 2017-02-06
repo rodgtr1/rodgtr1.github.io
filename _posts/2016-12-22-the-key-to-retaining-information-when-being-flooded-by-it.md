@@ -5,17 +5,7 @@ date: 2016-12-22T16:56:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-key-to-retaining-information-when-being-flooded-by-it/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/the-key-to-retaining-information.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/7960975375154467274
-dsq_thread_id:
-  - "5448335285"
-image: /wp-content/uploads/2016/12/flooded-with-information.jpg
+thumbnail: /wp-content/uploads/2016/12/flooded-with-information.jpg
 categories: tech
 tags:
   - learning

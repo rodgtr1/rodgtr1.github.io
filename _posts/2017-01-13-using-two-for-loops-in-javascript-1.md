@@ -6,9 +6,7 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=153
 permalink: /using-two-for-loops-in-javascript-1/
-dsq_thread_id:
-  - "5459408105"
-image: /wp-content/uploads/2017/01/two-for-loops.jpg
+thumbnail: /wp-content/uploads/2017/01/two-for-loops.jpg
 categories: tech
 tags:
   - arrays

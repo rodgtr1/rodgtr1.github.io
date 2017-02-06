@@ -6,9 +6,7 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=187
 permalink: /week-five-done-and-recommendations/
-dsq_thread_id:
-  - "5463663571"
-image: /wp-content/uploads/2017/01/week-five-done-1.jpg
+thumbnail: /wp-content/uploads/2017/01/week-five-done-1.jpg
 categories: Tech
 tags:
   - bloc
@@ -17,7 +15,7 @@ tags:
   - learning
   - web development
 ---
-<span class="wpsdc-drop-cap">S</span>o I just concluded week five at <a href="http://bloc.io" target="_blank">Bloc</a>. My last post like this was after week one, so much has happened since then to include JavaScript, JavaScript, and more JavaScript.
+So I just concluded week five at <a href="http://bloc.io" target="_blank">Bloc</a>. My last post like this was after week one, so much has happened since then to include JavaScript, JavaScript, and more JavaScript.
 
 Basically, after the first week you are equipped on a fairly basic level with HTML, CSS, the Command Line, and Git. Week two, is an intense series of courses on JavaScript, and I mean intense. It involves the Beginner, Intermediate, and Advanced courses on <a href="http://codeschool.com" target="_blank">CodeSchool</a>, in one week!  I struggled a bit on the Advanced course but pushed through it (though I did <a href="http://pursuingthetech.com/so-i-failed-my-first-bloc-assessment/" target="_blank">fail my first Bloc Assessment</a>).
 

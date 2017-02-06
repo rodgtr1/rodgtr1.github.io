@@ -5,15 +5,7 @@ date: 2016-12-20T15:06:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /week-one-done/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/week-one-done.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/3255107866109319700
-image: /wp-content/uploads/2016/12/week-one-done.jpg
+thumbnail: /wp-content/uploads/2016/12/week-one-done.jpg
 categories: tech
 tags:
   - bloc

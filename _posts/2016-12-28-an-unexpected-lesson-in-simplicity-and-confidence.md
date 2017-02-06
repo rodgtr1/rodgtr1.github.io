@@ -5,17 +5,7 @@ date: 2016-12-28T13:05:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /an-unexpected-lesson-in-simplicity-and-confidence/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/a-helpful-lesson-in-simplicity-and-confidence.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/6304177581176405380
-dsq_thread_id:
-  - "5448340435"
-image: /wp-content/uploads/2016/12/Keep_it_Simple_3340381990.jpg
+thumbnail: /wp-content/uploads/2016/12/Keep_it_Simple_3340381990.jpg
 categories: tech
 tags:
   - growth

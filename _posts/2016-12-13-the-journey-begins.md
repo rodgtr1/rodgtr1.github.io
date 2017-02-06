@@ -5,7 +5,7 @@ date: 2016-12-13T15:03:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-journey-begins/
-image: /wp-content/uploads/2016/12/the-journey-begins-298x248.jpg
+thumbnail: /wp-content/uploads/2016/12/the-journey-begins-298x248.jpg
 categories: Tech
 tags: 
   - bloc

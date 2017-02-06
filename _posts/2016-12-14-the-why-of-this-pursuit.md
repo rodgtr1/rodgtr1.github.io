@@ -5,17 +5,7 @@ date: 2016-12-14T13:08:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-why-of-this-pursuit/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/the-why-of-this-pursuit.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/6711560826477696208
-dsq_thread_id:
-  - "5448238765"
-image: /wp-content/uploads/2016/12/the-why.jpg
+thumbnail: /wp-content/uploads/2016/12/the-why.jpg
 categories: tech
 tags:
   - bloc

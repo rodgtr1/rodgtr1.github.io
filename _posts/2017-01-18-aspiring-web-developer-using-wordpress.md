@@ -6,15 +6,13 @@ author: Travis Rodgers
 layout: posts
 guid: http://pursuingthetech.com/?p=200
 permalink: /aspiring-web-developer-using-wordpress/
-dsq_thread_id:
-  - "5473054922"
-image: /wp-content/uploads/2017/01/wordpress.jpg
+thumbnail: /wp-content/uploads/2017/01/wordpress.jpg
 categories: Tech
 tags:
   - web development
   - wordpress
 ---
-<span class="wpsdc-drop-cap">S</span>o here is a guy at <a href="http://pursuingthetech.com" target="_blank">Pursuing the Tech</a>, eagerly learning web development with the goal of transitioning soon into this field. His site consists of blog posts <a href="http://pursuingthetech.com/the-journey-begins/" target="_blank">documenting this journey</a> as well as <a href="http://pursuingthetech.com/category/javascript/" target="_blank">technical concepts</a> learned along the way. Surely as he gets further into this pursuit he will seek to demonstrate to his readers or future clients the fact that he can create a website from scratch.
+So here is a guy at <a href="http://pursuingthetech.com" target="_blank">Pursuing the Tech</a>, eagerly learning web development with the goal of transitioning soon into this field. His site consists of blog posts <a href="http://pursuingthetech.com/the-journey-begins/" target="_blank">documenting this journey</a> as well as <a href="http://pursuingthetech.com/category/javascript/" target="_blank">technical concepts</a> learned along the way. Surely as he gets further into this pursuit he will seek to demonstrate to his readers or future clients the fact that he can create a website from scratch.
 
 Well then, why in the world is he running his site with WordPress? Even worse, why is he using someone else&#8217;s theme?
 

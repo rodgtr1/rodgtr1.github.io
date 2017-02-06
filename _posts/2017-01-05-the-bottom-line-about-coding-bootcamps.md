@@ -5,17 +5,7 @@ date: 2017-01-05T16:20:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-bottom-line-about-coding-bootcamps/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2017/01/the-bottom-line-about-coding-bootcamps.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/979033282795539680
-dsq_thread_id:
-  - "5442319983"
-image: /wp-content/uploads/2017/01/coding-bootcamps-2.jpg
+thumbnail: /wp-content/uploads/2017/01/coding-bootcamps-2.jpg
 categories: tech
 tags:
   - bloc

@@ -5,15 +5,7 @@ date: 2016-12-19T12:16:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-how-of-this-pursuit/
-blogger_blog:
-  - travisrodg.blogspot.com
-blogger_author:
-  - Travis Rodgers
-blogger_permalink:
-  - /2016/12/the-how-of-this-pursuit.html
-blogger_internal:
-  - /feeds/5797317547941525560/posts/default/6198316355017478112
-image: /wp-content/uploads/2016/12/the-how.jpeg
+thumbnail: /wp-content/uploads/2016/12/the-how.jpeg
 categories: tech
 tags:
   - learning
