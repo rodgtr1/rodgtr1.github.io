@@ -1,13 +1,11 @@
 ---
-id: 156
 title: 'Using Two For Loops In JavaScript: Part 2'
-date: 2017-01-14T17:24:32+00:00
 author: Travis Rodgers
 layout: posts
-guid: http://pursuingthetech.com/?p=156
 permalink: /using-two-for-loops-in-javascript-2/
 thumbnail: /wp-content/uploads/2017/01/two-for-loops.jpg
-categories: tech
+image: /wp-content/uploads/2017/01/two-for-loops.jpg
+categories: Tech
 tags:
   - arrays
   - loops
@@ -22,7 +20,7 @@ So here is the proposed exercise to demonstrate two for loops in action:
   <strong>Try to find the most frequent number in an array and how many times it occurs.</strong>
 </p>
 
-So let&#8217;s begin with a function :
+So let's begin with a function :
 
 <pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">function mostFrequentNumber(array) {
 // do something
@@ -46,8 +44,8 @@ Next, lets add our two for loops:
 var highestFrequency = 0;  
 var counter = 0; 
 var number;
-    for (var i = 0; i &lt; array.length; i++) {  
-        for (var y = 0; y &lt; array.length; y++) {  
+    for (var i = 0; i < array.length; i++) {  
+        for (var y = 0; < array.length; y++) {  
 };</pre>
 
 &nbsp;
@@ -58,8 +56,8 @@ Next, we need the second for loop to _do something_. As we look at our first num
 var highestFrequency = 0;  
 var counter = 0; 
 var number;
-    for (var i = 0; i &lt; array.length; i++) {  
-        for (var y = 0; y &lt; array.length; y++) {  
+    for (var i = 0; i < array.length; i++) {  
+        for (var y = 0; y < array.length; y++) {  
             if (array[i] == array[y]) {  
                 counter++;  
 };</pre>
@@ -76,11 +74,11 @@ In addition, the number attributed to the highest frequency will also be recorde
 var highestFrequency = 0;  
 var counter = 0; 
 var number;
-    for (var i = 0; i &lt; array.length; i++)  {  
-        for (var y = 0; y &lt; array.length; y++)  {  
+    for (var i = 0; i < array.length; i++)  {  
+        for (var y = 0; y < array.length; y++)  {  
             if (array[i] == array[y]){  
                 counter++;  
-            if (highestFrequency &lt; counter)  {  
+            if (highestFrequency < counter)  {  
                 highestFrequency = counter;
 		number = array[i]; 
 </pre>
@@ -93,11 +91,11 @@ Finally, we have to reset the counter after the second loop completes so that we
 var highestFrequency = 0;  
 var counter = 0; 
 var number;
-    for (var i = 0; i &lt; array.length; i++)  {  
-        for (var y = 0; y &lt; array.length; y++)  {  
+    for (var i = 0; i < array.length; i++)  {  
+        for (var y = 0; y < array.length; y++)  {  
             if (array[i] == array[y]){  
                 counter++;  
-            if (highestFrequency &lt; counter)  {  
+            if (highestFrequency < counter)  {  
                 highestFrequency = counter;
 	        number = array[i];   
             }  
@@ -107,5 +105,3 @@ var number;
     }  
   alert("The number " + number + " at " + highestFrequency + " times!");
 };</pre>
-
-&nbsp;

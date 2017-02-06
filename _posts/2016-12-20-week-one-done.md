@@ -1,12 +1,11 @@
 ---
-id: 16
 title: Week One, Done
-date: 2016-12-20T15:06:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /week-one-done/
 thumbnail: /wp-content/uploads/2016/12/week-one-done.jpg
-categories: tech
+image: /wp-content/uploads/2016/12/week-one-done.jpg
+categories: Tech
 tags:
   - bloc
   - learning
@@ -17,9 +16,7 @@ Well, week one is in the books. Here&#8217;s a brief summary:
 
 ### Overview
 
-<div>
-  The first two weeks at Bloc aim at providing the &#8220;fundamentals&#8221; of basic web development. The first week consists of HTML, CSS, Git and the Command Line all via exercises  at <a href="https://www.codeschool.com/" target="_blank">Code School</a> and a little from <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> (the majority of coding bootcamps require that you complete &#8220;prep work&#8221; before starting, however, <a href="http://bloc.io/" target="_blank">Bloc</a> incorporates this &#8220;prep-work&#8221; as part of its course, hence the third party sites).
-</div>
+The first two weeks at Bloc aim at providing the "fundamentals" of basic web development. The first week consists of HTML, CSS, Git and the Command Line all via exercises  at <a href="https://www.codeschool.com/" target="_blank">Code School</a> and a little from <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> (the majority of coding bootcamps require that you complete "prep work" before starting, however, <a href="http://bloc.io/" target="_blank">Bloc</a> incorporates this "prep-work" as part of its course, hence the third party sites).
 
 ### Time Management
 
@@ -33,7 +30,7 @@ My family has been very supportive. I have made it known to my wife and kids my 
 
 ### Mentor
 
-The mentor meetings were great.  This is one of the reasons I chose a &#8220;bootcamp.&#8221; My mentor had some great advice on approaching code logically and seeing the overall big picture. I did not have any questions for him so both meetings ended at 30 minutes.
+The mentor meetings were great.  This is one of the reasons I chose a "bootcamp." My mentor had some great advice on approaching code logically and seeing the overall big picture. I did not have any questions for him so both meetings ended at 30 minutes.
 
 ### Takeaways
 
@@ -41,10 +38,8 @@ The mentor meetings were great.  This is one of the reasons I chose a &#8220;bo
   * A Book Recommended to Me: <a href="https://www.amazon.com/Do-Work-Overcome-Resistance-Your/dp/1936891379" target="_blank">Do The Work by Steven Pressfield</a>
   * A new and helpful Podcast to listen to: <a href="http://www.codenewbie.org/" target="_blank">CodeNewbie</a>
 
-### Up Next&#8230;
+### Up Next...
 
-<div>
-  Week two is JavaScript, and I am very excited for it! At the same time, I also have very little experience with it. We&#8217;ll see how it goes. Oh, and its also Christmas&#8230;..
-</div>
+Week two is JavaScript, and I am very excited for it! At the same time, I also have very little experience with it. We'll see how it goes. Oh, and its also Christmas...
 
-**Feel free to <a href="http://twitter.com/pursuingthetech" target="_blank">link with me on Twitter</a>, especially if you are at Bloc or really any coding school. **
+**Feel free to <a href="http://twitter.com/travisdotmedia" target="_blank">link with me on Twitter</a>, especially if you are at Bloc or really any coding school. **

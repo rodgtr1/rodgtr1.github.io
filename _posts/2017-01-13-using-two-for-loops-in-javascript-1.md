@@ -1,13 +1,11 @@
 ---
-id: 153
 title: 'Using Two For Loops In JavaScript: Part 1'
-date: 2017-01-13T13:18:27+00:00
 author: Travis Rodgers
 layout: posts
-guid: http://pursuingthetech.com/?p=153
 permalink: /using-two-for-loops-in-javascript-1/
 thumbnail: /wp-content/uploads/2017/01/two-for-loops.jpg
-categories: tech
+image: /wp-content/uploads/2017/01/two-for-loops.jpg
+categories: Tech
 tags:
   - arrays
   - loops
@@ -16,7 +14,7 @@ So here is an array:
 
 <pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">var array = [3, 2, 3, 5, 5, 7, 5, 1];</pre>
 
-<span class="wpsdc-drop-cap">T</span>here are times when you will need to loop through this array comparing one number with the other numbers. For instance, you start with 3 and compare it with 3, then 2, then 3, then 5, then 5, etc. until you get to the end.
+There are times when you will need to loop through this array comparing one number with the other numbers. For instance, you start with 3 and compare it with 3, then 2, then 3, then 5, then 5, etc. until you get to the end.
 
 Next, you may want to move to the second number and cycle through the numbers again. So you would take 2 and compare it with 3, then 2, then 3, then 5, then 5, etc. until you get to the end.
 
@@ -28,28 +26,28 @@ We do this by using two _for_ loops.
 
 The first loop will cycle us through the numbers. This is just a standard _for_ loop:
 
-<pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">for(var i = 0; i &lt; array.length; i++){
+<pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">for(var i = 0; i < array.length; i++){
     // do something
 }</pre>
 
 For those unfamiliar with _for_ loops, this loop basically says three things:
 
   1. **var i = 0** sets the variable before the loop starts (NOTE: This is a ZERO and not the letter O). So the variable i will equal 0.
-  2. **i < array.length** is the &#8220;if&#8221; statement. If i is less than the length of the array, the loop will execute.
+  2. **i < array.length** is the "if" statement. If i is less than the length of the array, the loop will execute.
   3. **i++** says that after the loop does something, the variable i will increment one (0 will become 1).
 
 ### The Second Loop
 
 The second loop is going to look the same but with a different variable. Lets make that different variable the letter j:
 
-<pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">for(var j = 0; j &lt; array.length; j++){
+<pre class="whitespace-before:1 whitespace-after:1 lang:default decode:true">for(var j = 0; j < array.length; j++){
     // do something
 }</pre>
 
 The second loop will also cycle through the numbers but there are _**a few differences**_.
 
   1. This loop is nested **inside** the first _for_ loop. This means the first loop will execute, move to the second loop where the second loop will continue to loop until completion, and then the first loop will execute again, move to the second loop where the second loop will loop until completion, etc., etc., until the first loop is completed.
-  2. The variable is different. This allows the second loop to move through the array independent of the first loop&#8217;s variable.
+  2. The variable is different. This allows the second loop to move through the array independent of the first loop's variable.
 
 ### The Two For Loops Together
 
@@ -72,5 +70,3 @@ So lets look at our array again:
 ### A Practical Example
 
 So what do two _for_ loops look like practically? Well, we will look at a practical example in Part 2.
-
-&nbsp;

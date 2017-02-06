@@ -13,7 +13,7 @@ html {
 body {
     background-color: #303036;
     color: #333;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Georgia, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
@@ -56,6 +56,12 @@ p {
   line-height: 27px;
   margin: 0 0 25px;
   padding: 0;
+  font-family: Georgia, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+
+p, ul {
+  line-height: 27px;
   font-family: Georgia, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
 }
@@ -696,5 +702,10 @@ a, a:visited, .blog-title {
 h3.page-title {
   text-align: left;
 }
+
+#node-image {
+  max-width: 100%;
+}
+
 
 

@@ -1,12 +1,11 @@
 ---
-id: 14
-title: 'So I Failed My First Bloc Assessment&#8230;'
-date: 2016-12-26T19:57:00+00:00
+title: So I Failed My First Bloc Assessment...
 author: Travis Rodgers
 layout: posts
 permalink: /so-i-failed-my-first-bloc-assessment/
 thumbnail: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
-categories: tech
+image: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
+categories: Tech
 tags:
   - assessment
   - growth
@@ -20,11 +19,11 @@ Immediately afterwards I felt really discouraged. My score was so close. I began
 
 (This was not an assessment to get into the course, but an assessment within the course.)
 
-### In Preparation&#8230;
+### In Preparation...
 
 Before this first assessment, I honestly was not sure what to expect. I had finished the work for the week and felt somewhat confident in my understanding of JavaScript. They had told us there would be personal as well as technical questions, but one has to wonder **_how technical_** the technical questions would be. Well, there _**were**_ a few technical questions, and they were not exactly a walk in the park. But, to be fair they were ones that were covered in the intense week of JavaScript.
 
-### In Retrospect&#8230;
+### In Retrospect...
 
 Afterwards, I looked back at the 20 questions and answers (they provide you with a follow up email with a list of the questions, how you did, as well as a video of the interview) and realized some of my mistakes. One question I got wrong because I had still a little bit of the weekly assignment to finish, and that information was in that yet to be watched, next, video. The others I should have taken more time on. I also found that I am a lot better at figuring out solutions to provided functions than I am writing a function when a problem was presented.
 

@@ -1,12 +1,11 @@
 ---
-id: 15
 title: The Key To Retaining Information When Being Flooded By It
-date: 2016-12-22T16:56:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-key-to-retaining-information-when-being-flooded-by-it/
 thumbnail: /wp-content/uploads/2016/12/flooded-with-information.jpg
-categories: tech
+image: /wp-content/uploads/2016/12/flooded-with-information.jpg
+categories: Tech
 tags:
   - learning
 ---
@@ -14,7 +13,7 @@ Like many, I learn best by doing. I can sit in lectures and take notes all day, 
 
 ### JavaTricked
 
-This week at Bloc (week 2), I looked at my assignments and there were only three checkpoints: Beginner JavaScript, Intermediate JavaScript, and Advanced JavaScript. I thought, &#8220;Well this seems a lot less than last week.&#8221;
+This week at Bloc (week 2), I looked at my assignments and there were only three checkpoints: Beginner JavaScript, Intermediate JavaScript, and Advanced JavaScript. I thought, "Well this seems a lot less than last week."
 
 Wrong!
 
@@ -26,11 +25,11 @@ So given the correlation between the amount of info being taught and my tendency
 
 As I looked over my almost full composition notebook (after only a week and a half), and pondered whether I would actually remember it all, I had a thought&#8230;.a thought which brought comfort&#8230;.a thought which I think, in turn, is the key. That key is this:
 
-> Don&#8217;t worry about remembering EVERYTHING taught, but be sure to understand the CONCEPTS behind everything taught.
+> Don't worry about remembering EVERYTHING taught, but be sure to understand the CONCEPTS behind everything taught.
 
 If you have understood _how something worked_, and _how the instructor came to his or her conclusion_, then when you are faced with a similar challenge and look to Google or your notes for help, it is an understanding of the concepts that will help you reconstruct the answer.
 
-> In other words, you don&#8217;t have to remember every detail of all that you have learned because there is a wealth of resources out there to remind you, but be sure that you understand the concepts so when you find the correct resource, you can implement it correctly.
+> In other words, you don't have to remember every detail of all that you have learned because there is a wealth of resources out there to remind you, but be sure that you understand the concepts so when you find the correct resource, you can implement it correctly.
 
 ### Conclusion
 

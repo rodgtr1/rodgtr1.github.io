@@ -1,12 +1,10 @@
 ---
-id: 200
 title: Should An Aspiring Web Developer Be Using WordPress?
-date: 2017-01-18T14:22:06+00:00
 author: Travis Rodgers
 layout: posts
-guid: http://pursuingthetech.com/?p=200
 permalink: /aspiring-web-developer-using-wordpress/
 thumbnail: /wp-content/uploads/2017/01/wordpress.jpg
+image: /wp-content/uploads/2017/01/wordpress.jpg
 categories: Tech
 tags:
   - web development

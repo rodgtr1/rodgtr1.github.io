@@ -1,10 +1,9 @@
 ---
-id: 19
 title: The Journey Begins
-date: 2016-12-13T15:03:00+00:00
 author: Travis Rodgers
 layout: posts
 permalink: /the-journey-begins/
+image: /wp-content/uploads/2016/12/the-journey-begins-298x248.jpg
 thumbnail: /wp-content/uploads/2016/12/the-journey-begins-298x248.jpg
 categories: Tech
 tags: 
@@ -20,4 +19,4 @@ Hopefully it will serve as an encouragement to those looking to take a step in t
 
 Feel free to follow the blog. Also look for me on Twitter at <a href="http://twitter.com/pursuingthetech" target="_blank">@pursuingthetech</a>
 
-And&#8230; oh yeah&#8230; Hello World!
+And...oh yeah...Hello World!

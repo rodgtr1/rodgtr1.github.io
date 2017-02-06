@@ -75,9 +75,6 @@ $(function () {
     }
 */
   
-
-
-  })( window );
   
     // Fix scrolling issue on Mobile Safari.
     if ($(window).width() < 768) {

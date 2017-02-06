@@ -1,28 +1,25 @@
 ---
-id: 18
-title: 'The &#8216;Why&#8217; Of This Pursuit'
-date: 2016-12-14T13:08:00+00:00
+title: The "Why" Of This Pursuit
 author: Travis Rodgers
 layout: posts
 permalink: /the-why-of-this-pursuit/
 thumbnail: /wp-content/uploads/2016/12/the-why.jpg
-categories: tech
+image: /wp-content/uploads/2016/12/the-why.jpg
+categories: Tech
 tags:
   - bloc
   - learning
   - web development
 ---
-<p style="text-align: left;">
-  Why would a 35-year-old, married, father of 4, with a fairly stable job at a well known and reputable facility want to change careers? Well here are three reasons:
-</p>
 
-<div>
+Why would a 35-year-old, married, father of 4, with a fairly stable job at a well known and reputable facility want to change careers? Well here are three reasons:
+
   <h4>
     1. Delayed Complacency
   </h4>
   
   <p>
-    When I started my current job I had moved back to the Virginia area and needed a job&#8230;.any job. So I visited a temp agency and was placed as a temp employee. Within a year, I was hired on as a Medical Transcriptionist. Two years later our facility adapted a new Dictation/Transcription system and I was hired as an Health Information Analyst, managing the speech recognition system. What began as an urgent need for a job, turned into a fairly stable endeavor. Ten years later I am still there. It is not at all where I wanted to be 10 years later, but we all know that complacency has its way of passing the years at a much faster speed. This leads me to my next point&#8230;.
+    When I started my current job I had moved back to the Virginia area and needed a job...any job. So I visited a temp agency and was placed as a temp employee. Within a year, I was hired on as a Medical Transcriptionist. Two years later our facility adapted a new Dictation/Transcription system and I was hired as an Health Information Analyst, managing the speech recognition system. What began as an urgent need for a job, turned into a fairly stable endeavor. Ten years later I am still there. It is not at all where I wanted to be 10 years later, but we all know that complacency has its way of passing the years at a much faster speed. This leads me to my next point....
   </p>
   
   <h4>
@@ -30,7 +27,7 @@ tags:
   </h4>
   
   <p>
-    Over the past three years I have been blogging and running several sites. I have become very interested in web development (in the very basic sense of the word). I love HTML, CSS, and all other tinkering that I have picked up from Google search and free online courses. In contrast, there is no more room for advancement in my department. There are, for lack of a better phrase, no new challenges to pursue and no new positions to shift into. In addition, given the high reputation of our facility, other departments (i.e. the IT department) require degrees/training, at a minimum. This leads me to my next point&#8230;.
+    Over the past three years I have been blogging and running several sites. I have become very interested in web development (in the very basic sense of the word). I love HTML, CSS, and all other tinkering that I have picked up from Google search and free online courses. In contrast, there is no more room for advancement in my department. There are, for lack of a better phrase, no new challenges to pursue and no new positions to shift into. In addition, given the high reputation of our facility, other departments (i.e. the IT department) require degrees/training, at a minimum. This leads me to my next point....
   </p>
   
   <h4>
@@ -38,11 +35,10 @@ tags:
   </h4>
   
   <p>
-    So why don&#8217;t I begin learning and over time squeeze my way into another department? Because time is running out. <i>This is the final piece of my exit.</i> Basically, all signs point to our department being outsourced in 2018 if not sooner. Such is the fate of medical transcriptionists nationwide. In big businesses, cost cutting is ultimate pursuit.
-  </p>
-</div>
+    So why dont I begin learning and over time squeeze my way into another department? Because time is running out. <i>This is the final piece of my exit.</i> Basically, all signs point to our department being outsourced in 2018 if not sooner. Such is the fate of medical transcriptionists nationwide. In big businesses, cost cutting is ultimate pursuit.
+  </p> 
 
-<h3 style="text-align: left;">
+<h3>
   <u>So Why Bloc</u>
 </h3>
 

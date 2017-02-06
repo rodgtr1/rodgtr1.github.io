@@ -2,6 +2,9 @@ title: travis.media
 url: http://travis.media
 
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 permalink: /:title/
