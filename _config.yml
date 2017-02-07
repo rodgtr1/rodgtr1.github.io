@@ -10,6 +10,9 @@ kramdown:
 
 permalink: /:title
 
+gems:
+  - jekyll-seo-tag
+
 twitter:
   username: travisdotmedia
   
