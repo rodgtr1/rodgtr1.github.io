@@ -9,3 +9,13 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /:title
+
+twitter:
+  username: travisdotmedia
+  
+logo: logo.png
+social:
+  name: travisdotmedia
+  links:
+    - https://twitter.com/travisdotmedia
+    - https://github.com/rodgtr1
