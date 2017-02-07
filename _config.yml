@@ -17,7 +17,7 @@ gems:
 twitter:
   username: travisdotmedia
   
-logo:
+logo: {{post.thumbnail}}
 social:
   name: Travis Rodgers
   links:
