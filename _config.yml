@@ -13,6 +13,7 @@ permalink: /:title
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 twitter:
   username: travisdotmedia

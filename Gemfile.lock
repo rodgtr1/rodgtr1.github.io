@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     colorator (0.1)
     ffi (1.9.17)
     jekyll (3.1.6)
@@ -16,6 +17,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.0.0)
       jekyll (~> 3.1)
+    jekyll-sitemap (0.11.0)
+      addressable (~> 2.4.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -36,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    1.14.3
