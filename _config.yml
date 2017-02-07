@@ -1,4 +1,5 @@
 title: Travis Rodgers | Central Virginia Web Developer
+
 description: I build web applications. I also build websites, make them "pretty," and make them interactive.
 url: http://travis.media
 
@@ -16,9 +17,9 @@ gems:
 twitter:
   username: travisdotmedia
   
-logo: logo.png
+logo:
 social:
-  name: travisdotmedia
+  name: Travis Rodgers
   links:
     - https://twitter.com/travisdotmedia
     - https://github.com/rodgtr1
