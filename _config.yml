@@ -1,4 +1,5 @@
-title: travis.media
+title: Travis Rodgers | Central Virginia Web Developer
+description: I build web applications. I also build websites, make them "pretty," and make them interactive.
 url: http://travis.media
 
 markdown: kramdown
@@ -7,4 +8,4 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-permalink: /:title/
+permalink: /:title
