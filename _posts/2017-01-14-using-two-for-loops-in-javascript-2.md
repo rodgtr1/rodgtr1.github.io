@@ -7,8 +7,7 @@ thumbnail: /wp-content/uploads/2017/01/two-for-loops.jpg
 image: /wp-content/uploads/2017/01/two-for-loops.jpg
 categories: Tech
 tags:
-  - arrays
-  - loops
+  - javascript
 ---
 In <a href="http://pursuingthetech.com/using-two-for-loops-in-javascript-1/" target="_blank">Part 1</a> we looked at how using two for loops works. In this post, we will look at a practical example to see how this can be implemented.
 

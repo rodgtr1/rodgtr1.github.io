@@ -7,7 +7,6 @@ thumbnail: /wp-content/uploads/2017/01/wordpress.jpg
 image: /wp-content/uploads/2017/01/wordpress.jpg
 categories: Tech
 tags:
-  - web development
   - wordpress
 ---
 So here is a guy at <a href="http://pursuingthetech.com" target="_blank">Pursuing the Tech</a>, eagerly learning web development with the goal of transitioning soon into this field. His site consists of blog posts <a href="http://pursuingthetech.com/the-journey-begins/" target="_blank">documenting this journey</a> as well as <a href="http://pursuingthetech.com/category/javascript/" target="_blank">technical concepts</a> learned along the way. Surely as he gets further into this pursuit he will seek to demonstrate to his readers or future clients the fact that he can create a website from scratch.

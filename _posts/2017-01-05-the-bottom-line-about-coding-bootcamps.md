@@ -9,7 +9,6 @@ categories: Tech
 tags:
   - bloc
   - bootcamps
-  - web development
 ---
 There truly are some very disgruntled coding bootcamp grads out there. And there seems to be a trend found in most that actually account for their dissatisfaction.
 

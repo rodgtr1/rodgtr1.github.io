@@ -8,8 +8,7 @@ image: /wp-content/uploads/2016/12/you-dont-know-js.jpg
 categories: Tech
 tags:
   - books
-  - growth
-  - loops
+  - javascript
 ---
 Though I was understanding the beginning concepts of JavaScript well and able to follow along with the lessons, there was undoubtedly something missing. Well, I think I have found it.
 

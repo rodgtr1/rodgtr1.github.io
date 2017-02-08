@@ -7,7 +7,7 @@ thumbnail: /wp-content/uploads/2017/01/variable.jpg
 image: /wp-content/uploads/2017/01/variable.jpg
 categories: Tech
 tags:
-  - functions
+  - javascript
   - web development
 ---
 In a JavaScript function, where you place your variables is VERY important. This was indeed an 'aha' moment for me, and for all the other new programmers out there hopefully this will benefit you.

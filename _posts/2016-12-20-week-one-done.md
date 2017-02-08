@@ -8,9 +8,7 @@ image: /wp-content/uploads/2016/12/week-one-done.jpg
 categories: Tech
 tags:
   - bloc
-  - learning
   - time management
-  - web development
 ---
 Well, week one is in the books. Here&#8217;s a brief summary:
 

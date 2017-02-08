@@ -8,8 +8,6 @@ image: /wp-content/uploads/2016/12/the-why.jpg
 categories: Tech
 tags:
   - bloc
-  - learning
-  - web development
 ---
 
 Why would a 35-year-old, married, father of 4, with a fairly stable job at a well known and reputable facility want to change careers? Well here are three reasons:

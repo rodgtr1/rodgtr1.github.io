@@ -9,7 +9,6 @@ categories: Tech
 tags: 
   - bloc
   - bootcamps
-  - web development
 ---
 So yesterday, December 12, 2016, I began what will be an intense, six month, 20+ hour a week Web Developer course with <a href="https://www.bloc.io/" target="_blank">Bloc</a>.
 

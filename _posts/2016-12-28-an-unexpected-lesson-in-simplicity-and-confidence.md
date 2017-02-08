@@ -7,7 +7,6 @@ thumbnail: /wp-content/uploads/2016/12/Keep_it_Simple_3340381990.jpg
 image: /wp-content/uploads/2016/12/Keep_it_Simple_3340381990.jpg
 categories: Tech
 tags:
-  - growth
   - learning
 ---
 In my previous post I noted that I did not pass my first assessment at Bloc. Since this happened, I have been really digging in, solving the problems that I got wrong, re-reviewing the material, practicing with online exercises, etc. Most importantly, I worked yesterday with my Bloc mentor and learned a valuable lesson. Let me tell you about it.

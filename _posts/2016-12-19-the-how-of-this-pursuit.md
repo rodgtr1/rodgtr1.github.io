@@ -7,7 +7,6 @@ thumbnail: /wp-content/uploads/2016/12/the-how.jpeg
 image: /wp-content/uploads/2016/12/the-how.jpeg
 categories: Tech
 tags:
-  - learning
   - time management
 ---
 The final question to kick of this journey is: How can I do this with all of my current demands to include being a diligent husband, father of four, being a faithful and industrious employee, friends, church, etc. How can I fit in the required 20 hours a week or 3-4 hours a day. Well here is the plan:

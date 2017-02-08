@@ -71,6 +71,10 @@ h3 {
 dd {
     margin-left: 25px;
 }
+ 
+img {
+  max-width: 100%;
+}
 
 /* ==========================================================================
 #CONTACT PAGE
@@ -692,6 +696,10 @@ a, a:visited, .blog-title {
 
 .post-metadata {
   text-align: left;
+}
+
+.center-post-image {
+  text-align: center;
 }
 
 h3.page-title {

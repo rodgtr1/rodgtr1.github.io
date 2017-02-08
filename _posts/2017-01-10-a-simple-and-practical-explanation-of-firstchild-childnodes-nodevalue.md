@@ -7,7 +7,7 @@ thumbnail: /wp-content/uploads/2017/01/html-node-copy.jpg
 image: /wp-content/uploads/2017/01/html-node-copy.jpg
 categories: Tech
 tags:
-  - nodes
+  - javascript
 ---
 I recently had an exercise where I was asked to manipulate nodes using firstChild, childNodes, and nodeValue. In my search to better understand these I found many sites explaining the technical jargon behind them and also providing somewhat complex examples of their uses.
 

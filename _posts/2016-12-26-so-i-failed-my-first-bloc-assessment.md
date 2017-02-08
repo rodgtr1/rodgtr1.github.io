@@ -7,8 +7,7 @@ thumbnail: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
 image: /wp-content/uploads/2016/12/failed-bloc-assessment.jpg
 categories: Tech
 tags:
-  - assessment
-  - growth
+  - bloc
   - learning
 ---
 So I had my first Bloc assessment on Christmas Eve (Saturday), and I did not pass it. Close, but no cigar. Passing is a 7 and above and I received a 6.5. What a let down!

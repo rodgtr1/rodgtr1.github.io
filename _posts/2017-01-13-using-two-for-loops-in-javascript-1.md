@@ -7,8 +7,7 @@ thumbnail: /wp-content/uploads/2017/01/two-for-loops.jpg
 image: /wp-content/uploads/2017/01/two-for-loops.jpg
 categories: Tech
 tags:
-  - arrays
-  - loops
+  - javascript
 ---
 So here is an array:
 

@@ -11,9 +11,6 @@ categories: Tech
 tags:
   - bloc
   - bootcamps
-  - growth
-  - learning
-  - web development
 ---
 So I just concluded week five at <a href="http://bloc.io" target="_blank">Bloc</a>. My last post like this was after week one, so much has happened since then to include JavaScript, JavaScript, and more JavaScript.
 
