@@ -710,6 +710,14 @@ h3.page-title {
   max-width: 100%;
 }
 
+.related-posts-section {
+  max-width: 100%;
+}
+
+.related-posts{
+  margin: 0;
+}
+
 
 
 /**
