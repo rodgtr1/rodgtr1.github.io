@@ -9,7 +9,6 @@ description: Here is how you can add images in Jekyll posts using relative links
 categories: Tech
 tags: 
 - jekyll
-published: false
 ---
 
 So you are hosting your Jekyll site on Github and are writing a new blog post. You go to add an image within the post using Markdown and it fails. You double check the path and its correct. You try adding a leading "/" to no avail.  
