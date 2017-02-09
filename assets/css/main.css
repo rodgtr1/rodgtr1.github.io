@@ -665,7 +665,7 @@ a, a:visited, .blog-title {
   width: 178px;
   height: 148px;
   max-width: 100%;
-  padding-right: 13px;
+  padding-right: 16px;
 }
 
 .label-tag{
@@ -729,7 +729,6 @@ h3.page-title {
 
 .share-this {
   text-align: center;
-  padding-top: 50px;
 }
 
 #share-box {

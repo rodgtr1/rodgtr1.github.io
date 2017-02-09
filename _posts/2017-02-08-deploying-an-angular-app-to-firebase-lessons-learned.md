@@ -31,7 +31,7 @@ Thus, here are a few lessons learned and how hopefully they can help you if you 
 **Scenario 1: Your deploy is complete and you visit the URL and get this:**
 
 {:.center-post-image}
-![]({{site.github.url}}/assets/img/firebase-notification.png)
+![]({{site.url}}/assets/img/firebase-notification.png)
 
 Here is the issue: 
 
