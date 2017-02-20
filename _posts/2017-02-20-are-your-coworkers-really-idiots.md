@@ -3,8 +3,8 @@ title: Are Your Coworkers Really Idiots?
 author: Travis Rodgers
 layout: posts
 permalink: /are-your-coworkers-really-idiots
-image: assets/img/old-person-computer.jpg
-thumbnail: assets/img/old-person-computer.jpg
+image: assets/img/old-person-computer.JPG
+thumbnail: assets/img/old-person-computer.JPG
 categories: Life
 tags: 
   - work
