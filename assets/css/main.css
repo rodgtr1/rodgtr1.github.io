@@ -787,3 +787,252 @@ h3.page-title {
 .fa-twitter {
   color: #4099FF;
 }
+
+/**
+* Portfolio
+* ==================================================
+*/
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul.gallery {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+ul.gallery li {
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  border: 3px solid #313E50;
+}
+
+
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 0;
+  *zoom: 1;
+}
+
+[class*="block-grid-"]:before, [class*="block-grid-"]:after {
+  content: " ";
+  display: table;
+}
+
+@media only screen {
+  .small-block-grid-2 > li {
+    width: 50%;
+    list-style: none;
+  }
+  .small-block-grid-2 > li:nth-of-type(n) {
+    clear: none;
+  }
+  .small-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+}
+
+
+@media only screen and (min-width: 40.063em) {
+
+  .medium-block-grid-3 > li {
+    width: 33.33333%;
+    list-style: none;
+  }
+  .medium-block-grid-3 > li:nth-of-type(n) {
+    clear: none;
+  }
+  .medium-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+  .large-block-grid-4 > li {
+    width: 25%;
+    list-style: none;
+  }
+  .large-block-grid-4 > li:nth-of-type(n) {
+    clear: none;
+  }
+  .large-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+}
+
+.full {
+  padding: 40px 0;
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: 2px;
+}
+
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 0;
+  *zoom: 1;
+}
+
+class*="block-grid-"]:after {
+  clear: both;
+}
+
+[class*="block-grid-"] > li {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 0 0;
+}
+
+
+ul,
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* gallery */
+ul.gallery img {
+  width: 100%;
+}
+ul.gallery li {
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  border: 3px solid #313E50
+}
+ul.gallery li a {
+  position: relative;
+  display: block;
+}
+ul.gallery li a .overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  padding-top: 10%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ul.gallery li a h3 {
+  color: #fcbf31;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+ul.gallery li a p {
+  color: #dddddd;
+  font-family: "droid serif", georgia;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+ul.gallery li a:hover .overlay {
+  opacity: 1;
+}
+ul.gallery li.hidden {
+  opacity: 0.3;
+}
+
+/* smart appear */
+.fadeinleft {
+  -webkit-transform: translateX(-40px);
+  -moz-transform: translateX(-40px);
+  -ms-transform: translateX(-40px);
+  -o-transform: translateX(-40px);
+  transform: translateX(-40px);
+  opacity: 0.3;
+  -webkit-transition: all 0.8s linear;
+  -moz-transition: all 0.8s linear;
+  -o-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.fadeinright {
+  -webkit-transform: translateX(40px);
+  -moz-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  -o-transform: translateX(40px);
+  transform: translateX(40px);
+  opacity: 0.3;
+  -webkit-transition: all 0.8s linear;
+  -moz-transition: all 0.8s linear;
+  -o-transition: all 0.8s linear;
+  transition: all 0.8s linear;
+}
+
+.fadeinleft.appear, .fadeinright.appear {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/* portfolio */
+ul#filter {
+  margin: 0 auto;
+  text-align: center;
+}
+ul#filter li {
+  float: none;
+  display: inline-block;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  margin-left: 0.5rem;
+}
+ul#filter li a {
+  color: #999999;
+}
+ul#filter li.current {
+  border: 1px solid #fcbf31;
+}
+ul#filter li.current a {
+  color: #fcbf31;
+}
+
+ul.info {
+  list-style: none;
+}
+ul.info a {
+  margin-right: 5px;
+}
+ul.info i {
+  border: 1px solid #fcbf31;
+  padding: 5px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+ul.info i:hover {
+  background: #fcbf31;
+  color: white;
+}
+
+.portfolio-text {
+  color: #E8EBE4;
+}
