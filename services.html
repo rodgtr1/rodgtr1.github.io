@@ -1,0 +1,65 @@
+---
+layout: page
+title: Services
+permalink: /services
+
+services:
+  -
+    - title: Web design
+      icon: layout
+      desc:
+        Your business is unique, thus your website should reflect that. At RightMind Studios we aim to help you distinguish yourself from your competitors by building powerful, captivating websites focused on user experience, content, and design. We also make sure your site is optimized for speed, SEO, the latest web standards, and is responsive across multiple digital devices and browsers. 
+      color:
+    - title: Web development
+      icon: layout
+      desc:
+        We also build custom web applications to meet the needs of your business. We have experience creating apps with JavaScipt, frameworks for single page applications such as AngularJS, we well as the beloved Ruby on Rails. Whether it be incorporating your custom web application within an exisiting website or as a standalone entity, we can help make that vision a reality.
+      color:
+    - title: SEO/Site optimization
+      icon: layout
+      desc:
+        Web users are impatient when it comes to slow sites, especially on mobile devices. It is important that your site is functioning at top speed and with the best web practices. In addition, you want your site to rank well with search engines such as Google. This is done with well written code, engaging content, and proper site setup. Let us review your site and set it up for peak performance and ranking. 
+      color:
+  -
+    - title: Audio services
+      icon: layout
+      desc:
+        We offer professional, industry standard Mixing and Mastering services. Prices vary depending on number of tracks, etc. and we are happy to discuss this with you, just shoot us an email with your request. We also offer audio editing for your podcasts, commercial spots, etc. 
+      color: yellow
+    - title: Video editing
+      icon: layout
+      desc:
+        From family gatherings to web videos to commercial spots, we offer video editing services using Adobe Premiere. 
+      color: yellow
+    - title: Music production
+      icon: layout
+      desc:
+        RightMind Studios also has a "vault" of instrumentals and jingles for your new single or youtube video. There are a number of leasing options as well as an exclusive option. Download on demand. 
+      color: yellow
+---
+
+<div class='full light-yellow' id='services-section'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>Our services</h2>
+      <p>We are passionate about web design &amp; development</p>
+      <p class='shortline'></p>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+
+  {% for row in page.services %}
+  <div class="row">
+    {% for service in row %}
+    <div class='medium-4 large-4 columns icon-text'>
+      <i class='icon-{{service.icon}} {{service.color}}'></i>
+      <h3>{{service.title}}</h3>
+      <p>{{service.desc}}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% unless forloop.last %}
+  <div class="spacing"></div>
+  {% endunless %}
+  {% endfor %}
+</div>

@@ -1,10 +1,73 @@
 ---
 layout: page
-title: Projects
+title: Portfolio
 permalink: /portfolio
+
+works:
+  - image: myco-image.png
+    title: Myco
+    category: Mixing &amp; Mastering services
+    link: https://mycoband.bandcamp.com/
+  - image: bloc-jams.png
+    title: A Spotify clone web app
+    category: Web development &amp design
+    link: https://github.com/rodgtr1/bloc-jams
+  - image: john-henry-angela.png
+    title: John Henry - Hello Angela
+    category: Mastering services
+    link: https://www.amazon.com/Hello-Angela-John-Henry/dp/B01I53OGM6
+  - image: bloc-chat.png
+    title: A Chat application
+    category: Web development &amp design
+    link: https://github.com/rodgtr1/Bloc-Chat
+  - image: wordpress-photo.png
+    title: Wordpress development
+    category: Design &amp; Development
+    link: http://travisrodg.com
+  - image: aosports-image.png
+    title: Alpha &amp Omega Sports
+    category: Video editing
+    link: https://www.youtube.com/watch?v=ljoyeKxYed0
+  - image: lady-godiva-image.png
+    title: Lady Godiva
+    category: Mixing &amp Mastering services
+    link: https://ladygodiva.bandcamp.com/track/willow-lake
+  - image: travis-media.png
+    title: Jekyll websites
+    category: Design &amp; Development
+    link: http://travis.media
 ---
 
-<h2 class="projects-title">Projects</h2>
+
+<div class='full dark-blue' id="portfolio-section">
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <!--      <i class='icon-star'></i>-->      
+      <h2 class="portfolio-text">Portfolio</h2>
+      <p style="color: #E8EBE4">Our best and featured works so far</p>
+      <p class='shortline'></p>
+    </div>
+  </div>
+</div>
+<ul class='gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
+  {% for work in page.works %}
+  <li>
+    <a href={{work.link}} target="_blank">
+      <img src='/assets/img/{{ work.image }}'>
+      <div class='overlay'>
+        <div class='thumb-info'>
+          <h3>{{ work.title }}</h3>
+          <p>{{ work.category }}</p>
+        </div>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+
+<!--<h2 class="projects-title">Projects</h2>
 
 <p>Listed below are the projects I've recently undertaken. They are linked to my GitHub profile at <a href="http://github.com/rodgtr1" target="_blank">github.com/rodgtr1</a>.</p> 
 
@@ -16,40 +79,40 @@ permalink: /portfolio
 
 <div class="work">
 
-  <div class="project">
-    <div id="blocjams-thumbnail" class="project-thumb">
-      <a href="https://github.com/rodgtr1/bloc-jams">
-        <img src="assets/img/blocjams.png" alt="BlocJams"/>
-      </a>
-    </div>
-    <div class="project-description">
-      <h3 class="project-name"><a href="https://github.com/rodgtr1/bloc-jams" target="_blank"><strong>BlocJams</strong></a></h3>
-      <p class="project-description-long">BlocJams is a digital music player like Spotify. Written in Javascript and jQuery. Written again using AngularJS. My code for each as well as a demo available here:</p>
-    </div>
-    
-    <div class="triple-button">
-      <input type="button" value="JS / jQuery Code" class="btn" onclick="window.open('https://github.com/rodgtr1/bloc-jams', '_blank')" />
-      <input type="button" value="Demo" class="btn" onclick="window.open('http://bloc-jams-travis-rodgers.netlify.com/', '_blank')" />
-      <input type="button" value="AngularJS code" class="btn" onclick="window.open('https://github.com/rodgtr1/bloc-jams-angular', '_blank')" />
-      <input type="button" value="Demo" class="btn" onclick="window.open('https://bloc-jams-angular-a08aa.firebaseapp.com/', '_blank')" />
-    </div>
-      
-      <hr style="border-top: dotted 1px;" />
-      
-      <div id="blocchat-thumbnail" class="project-thumb">
-        <a href="https://github.com/rodgtr1/Bloc-Chat">
-          <img src="assets/img/blocchat-image.png" alt="BlocChat"/>
-        </a>
-      </div>
-      <div class="project-description">
-        <h3 class="project-name"><a href="https://github.com/rodgtr1/Bloc-Chat" target="_blank"><strong>BlocChat</strong></a></h3>
-        <p class="project-description-long">Bloc Chat is a single page application Chat Room built using the AngularJS framework and Firebase database. My code for this application as well as a demo available here:</p>
-      </div>
-
-    <div class="triple-button">
-      <input type="button" value="AngularJS code" class="btn" onclick="window.open('https://github.com/rodgtr1/Bloc-Chat', '_blank')" />
-      <input type="button" value="Demo" class="btn" onclick="window.open('https://bloc-chat-angular-ee639.firebaseapp.com', '_blank')" />
-    </div>
-
-  </div>
+<div class="project">
+<div id="blocjams-thumbnail" class="project-thumb">
+<a href="https://github.com/rodgtr1/bloc-jams">
+<img src="assets/img/blocjams.png" alt="BlocJams"/>
+</a>
 </div>
+<div class="project-description">
+<h3 class="project-name"><a href="https://github.com/rodgtr1/bloc-jams" target="_blank"><strong>BlocJams</strong></a></h3>
+<p class="project-description-long">BlocJams is a digital music player like Spotify. Written in Javascript and jQuery. Written again using AngularJS. My code for each as well as a demo available here:</p>
+</div>
+
+<div class="triple-button">
+<input type="button" value="JS / jQuery Code" class="btn" onclick="window.open('https://github.com/rodgtr1/bloc-jams', '_blank')" />
+<input type="button" value="Demo" class="btn" onclick="window.open('http://bloc-jams-travis-rodgers.netlify.com/', '_blank')" />
+<input type="button" value="AngularJS code" class="btn" onclick="window.open('https://github.com/rodgtr1/bloc-jams-angular', '_blank')" />
+<input type="button" value="Demo" class="btn" onclick="window.open('https://bloc-jams-angular-a08aa.firebaseapp.com/', '_blank')" />
+</div>
+
+<hr style="border-top: dotted 1px;" />
+
+<div id="blocchat-thumbnail" class="project-thumb">
+<a href="https://github.com/rodgtr1/Bloc-Chat">
+<img src="assets/img/blocchat-image.png" alt="BlocChat"/>
+</a>
+</div>
+<div class="project-description">
+<h3 class="project-name"><a href="https://github.com/rodgtr1/Bloc-Chat" target="_blank"><strong>BlocChat</strong></a></h3>
+<p class="project-description-long">Bloc Chat is a single page application Chat Room built using the AngularJS framework and Firebase database. My code for this application as well as a demo available here:</p>
+</div>
+
+<div class="triple-button">
+<input type="button" value="AngularJS code" class="btn" onclick="window.open('https://github.com/rodgtr1/Bloc-Chat', '_blank')" />
+<input type="button" value="Demo" class="btn" onclick="window.open('https://bloc-chat-angular-ee639.firebaseapp.com', '_blank')" />
+</div>
+
+</div>
+</div>-->
