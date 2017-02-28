@@ -470,7 +470,7 @@ a.creative-commons:hover {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 556px) {
   .navigation {
     font-size: 35px;
     padding: 20px;
@@ -641,6 +641,17 @@ input.btn:hover {
 
 .work .project .excerpt {
   margin-top: 1em;
+}
+
+/**
+* instrumentals.html
+* ==================================================
+*/
+
+.instrumental-vault-logo {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
 }
 
 /**
