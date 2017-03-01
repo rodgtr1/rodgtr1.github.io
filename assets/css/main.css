@@ -679,6 +679,49 @@ a, a:visited, .blog-title {
 
 .margin10{margin-bottom:10px; margin-right:10px;}
 
+.tags-expo {
+  text-align: center;  
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.tags-expo-list {
+  
+}
+
+.tags-expo-list a:visited {
+  color: white;
+}
+
+.blog-tag-item {
+  display: inline-block;
+}
+
+.category-tag{
+  background-color: #4f7cac;
+}
+
+.category {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.all-posts {
+  margin-top: 4px;
+}
+
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
 
 /* front page stuff */
 .imgcontainer img{
@@ -878,9 +921,7 @@ ul.gallery li {
   background-size: cover;
 }
 
-h1, h2, h3, h4 {
-  letter-spacing: 2px;
-}
+
 
 [class*="block-grid-"] {
   display: block;
