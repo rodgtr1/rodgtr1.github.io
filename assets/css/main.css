@@ -76,6 +76,16 @@ img {
   max-width: 100%;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.center-text-italic {
+  text-align: center;
+  font-style: italic; 
+  
+}
+
 /* ==========================================================================
 #CONTACT PAGE
 ========================================================================== */
@@ -132,6 +142,10 @@ input[type="submit"] {
   text-align: right;
 }
 
+.clear-space {
+  clear: both;
+}
+
 .contact-info-group label {
   width: 50%;
   float: left;
@@ -170,7 +184,7 @@ header {
 }
 
 .navigation {
-  background-color: #fff;
+  background-color: #fdfffc;
   border: 1px solid #ccc;
   border-radius: 10px 10px 0 0;
   margin: 0;
@@ -179,7 +193,7 @@ header {
 }
 
 .content {
-  background-color: #fff;
+  background-color: #fdfffc;
   border: 1px solid #ccc;
   border-top-width: 0;
   /* min-height: 700px; */
@@ -188,7 +202,7 @@ header {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #fdfffc;
   border: 1px solid #ccc;
   border-radius: 0 0 10px 10px;
   border-top-width: 0;
@@ -1077,3 +1091,85 @@ ul.info i:hover {
 .portfolio-text {
   color: #E8EBE4;
 }
+
+.columns {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+
+/*icon-text */
+.icon-text i {
+  color: white;
+  background: #303036;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  border-radius: 18px;
+  height: 36px;
+  width: 36px;
+  display: block;
+  text-align: center;
+  line-height: 2.1rem;
+  float: left;
+}
+.icon-text i.yellow {
+  background: #4f7cac;
+}
+.icon-text h3, .icon-text p {
+  margin-left: 60px;
+}
+
+.icon-text-boxed i {
+  font-size: 88px;
+  color: #fcbf31;
+  border: 1px solid #fcbf31;
+  padding: 35px 0;
+  display: block;
+  width: 88%;
+  margin: 0 auto 35px;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.icon-text-boxed:hover i {
+  background: #fcbf31;
+  color: white;
+}
+
+.icon-text-circle {
+  text-align: center;
+}
+.icon-text-circle i {
+  margin-bottom: 30px;
+  font-size: 5.5rem;
+  color: white;
+  border: 10px solid whitesmoke;
+  display: inline-block;
+  padding: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #fcbf31;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+.icon-text-circle i:before {
+  margin: 0;
+}
+
+.icon-text-circle:hover i {
+  background: none;
+  color: #fcbf31;
+}
+
+
