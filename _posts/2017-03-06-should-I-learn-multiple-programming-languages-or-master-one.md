@@ -10,7 +10,6 @@ tags:
   - web development
   - languages
 ---
-###In The Process 
 At [Bloc](http://bloc.io) we started out with Front End Development. We learned HTML, CSS, and JavaScript. We checked out the JQuery library and re-created an app using the AngularJS framework. 
 
 At that point I began to feel very comfortable with JavaScript and was enjoying it immensely. I was reading JS and Angular books on the side to gain a better understanding.
