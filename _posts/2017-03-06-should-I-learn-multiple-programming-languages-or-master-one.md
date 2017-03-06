@@ -10,6 +10,7 @@ tags:
   - web development
   - languages
 ---
+### In The Process
 At [Bloc](http://bloc.io) we started out with Front End Development. We learned HTML, CSS, and JavaScript. We checked out the JQuery library and re-created an app using the AngularJS framework. 
 
 At that point I began to feel very comfortable with JavaScript and was enjoying it immensely. I was reading JS and Angular books on the side to gain a better understanding.
@@ -22,12 +23,12 @@ Yet, in all this excitement and time spent learning Ruby on Rails, my confidence
 
 I want to keep pushing on with Rails, but I don't want my understanding of JavaScript to be lost in the process. 
 
-###The Dilemma
+### The Dilemma
 This brings me to the point of this post. It is a thought that comes up often in my day to day musings and one I would love to get your feedback on. It is this:
 
  >Is it prudent, as a new coder, to have a decent grasp of multiple languages, or to focus on one particular language and work to "master" it. 
 
-###My Thoughts
+### My Thoughts
 I have given this some thought. There are guys, like [Eric Elliot](https://ericelliottjs.com/), who focus on a specific language (JavaScript) as their niche, and they become VERY familiar with it and carve out a successful life programming/teaching/etc. it. This seems like a wise thing to do, to zone in on one language, become very familiar with it, and market yourself as a _____ developer/teacher/etc.
 
 This also seems wise for CodeNewbies, because the ultimate goal is to land a job...to get your foot in the door. 
@@ -40,5 +41,5 @@ Sure, there is freelance work, and the option of relocation, but should I spend 
 
 Now should I quit learning Rails? Absolutely not! But I think I should put a bit more effort in the language that is needed in my location: To become well grounded in JS and market myself specifically as a JS developer. 
 
-###Your Thoughts
+### Your Thoughts
 These are my current thoughts and may change over time. What are your thoughts on this topic. Do you agree that if the goal is to land a job, then one should focus heavily on the language that is demanded in that area?
