@@ -26,7 +26,7 @@ I want to keep pushing on with Rails, but I don't want my understanding of JavaS
 ### The Dilemma
 This brings me to the point of this post. It is a thought that comes up often in my day to day musings and one I would love to get your feedback on. It is this:
 
- >Is it prudent, as a new coder, to have a decent grasp of multiple languages, or to focus on one particular language and work to "master" it. 
+ >Is it prudent, as a new coder, to have a decent grasp of multiple languages, or to focus on one particular language and work to "master" it? 
 
 ### My Thoughts
 I have given this some thought. There are guys, like [Eric Elliot](https://ericelliottjs.com/), who focus on a specific language (JavaScript) as their niche, and they become VERY familiar with it and carve out a successful life programming/teaching/etc. it. This seems like a wise thing to do, to zone in on one language, become very familiar with it, and market yourself as a _____ developer/teacher/etc.
