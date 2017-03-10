@@ -38,6 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-seo-tag
   jekyll-sitemap
 
